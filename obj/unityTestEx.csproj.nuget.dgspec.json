@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\GabrielFerreira\\documents\\repos\\unityTestEx\\unityTestEx.csproj": {}
+    "C:\\Users\\GabrielFerreira\\Documents\\repos\\unityTestEx\\unityTestEx.csproj": {}
   },
   "projects": {
-    "C:\\Users\\GabrielFerreira\\documents\\repos\\unityTestEx\\unityTestEx.csproj": {
+    "C:\\Users\\GabrielFerreira\\Documents\\repos\\unityTestEx\\unityTestEx.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\GabrielFerreira\\documents\\repos\\unityTestEx\\unityTestEx.csproj",
+        "projectUniqueName": "C:\\Users\\GabrielFerreira\\Documents\\repos\\unityTestEx\\unityTestEx.csproj",
         "projectName": "unityTestEx",
-        "projectPath": "C:\\Users\\GabrielFerreira\\documents\\repos\\unityTestEx\\unityTestEx.csproj",
+        "projectPath": "C:\\Users\\GabrielFerreira\\Documents\\repos\\unityTestEx\\unityTestEx.csproj",
         "packagesPath": "C:\\Users\\GabrielFerreira\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\GabrielFerreira\\documents\\repos\\unityTestEx\\obj\\",
+        "outputPath": "C:\\Users\\GabrielFerreira\\Documents\\repos\\unityTestEx\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\GabrielFerreira\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -38,6 +38,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

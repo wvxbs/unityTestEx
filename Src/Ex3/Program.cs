@@ -8,7 +8,7 @@ namespace gpp
 {
     class Program
     {   
- 
+        /*
         static LoadFilePathFromConfigurationFile ConfigurationFileData = new LoadFilePathFromConfigurationFile();
         static string QuestionsFilePath = ConfigurationFileData.GetFilePath();
 
@@ -40,6 +40,6 @@ namespace gpp
                 Console.WriteLine(QuizResults.DisplayPercentage());
                 Console.ReadLine();
             }
-        }
+        } */
     }
 }
